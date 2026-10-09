@@ -66,7 +66,7 @@ gh repo create sipm-multiplexing-pet --public --source=. --remote=origin --push
 `.gitignore`, no license, since this repository already has them — then:
 
 ```bash
-git remote add origin https://github.com/regmi-sijan/sipm-multiplexing-pet.git
+git remote add origin https://github.com/USERNAME/sipm-multiplexing-pet.git
 git push -u origin main
 ```
 
@@ -80,7 +80,7 @@ switch it to public later in Settings.
   versions. It takes a few minutes, mostly installing PyTorch.
 - **Add a CI badge** to the top of `README.md` once you know the repo URL:
   ```markdown
-  [![tests](https://github.com/regmi-sijan/sipm-multiplexing-pet/actions/workflows/tests.yml/badge.svg)](https://github.com/regmi-sijan/sipm-multiplexing-pet/actions/workflows/tests.yml)
+  [![tests](https://github.com/USERNAME/sipm-multiplexing-pet/actions/workflows/tests.yml/badge.svg)](https://github.com/USERNAME/sipm-multiplexing-pet/actions/workflows/tests.yml)
   ```
 - **Fill in the repo description and topics** (Settings, or the gear icon on the main page):
   suggested topics `pet-imaging`, `sipm`, `medical-physics`, `monte-carlo`, `pytorch`, `cnn`.

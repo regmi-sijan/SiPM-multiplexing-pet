@@ -109,7 +109,7 @@ Every change between them is listed in [`teaching_pipeline_v2/CHANGELOG.md`](tea
 Requires a **native** Python 3.10–3.13 (not conda — see [Environment notes](#environment-notes)).
 
 ```bash
-git clone https://github.com/regmi-sijan/sipm-multiplexing-pet.git
+git clone https://github.com/USERNAME/sipm-multiplexing-pet.git
 cd sipm-multiplexing-pet/teaching_pipeline_v2
 
 bash setup_env.sh                 # builds .venv and tests it (one time, a few minutes)
