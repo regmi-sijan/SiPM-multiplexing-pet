@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Generated output (regenerate with run_all.py; see each version's README) ----
+# Everything under results/ is produced by a run: figures, summary tables, logs and the
+# simulated-data cache (hundreds of MB). example_results/ is committed on purpose.
+results/
+*.log
+
+# ---- Source material that is NOT ours to redistribute ----
+# The paper (SSRN 4865116) and the slide deck built from its figures are copyright of their
+# authors/publisher. Keep them local; link to https://ssrn.com/abstract=4865116 instead.
+*.pdf
+*.pptx
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

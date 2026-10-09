@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+title: "SiPM multiplexing in a monolithic PET detector - a teaching re-implementation"
+message: >-
+  This repository is an independent educational re-implementation and contains no new
+  scientific findings. Please cite the source article (listed under 'preferred-citation'),
+  not this software alone. Cite the software as well only if the implementation itself is
+  what you are referring to.
+type: software
+authors:
+  - family-names: Regmi
+    given-names: Sijan
+repository-code: "https://github.com/regmi-sijan/sipm-multiplexing-pet"
+license: MIT
+keywords:
+  - PET
+  - SiPM
+  - signal multiplexing
+  - monolithic scintillator
+  - convolutional neural network
+  - medical physics
+
+preferred-citation:
+  type: article
+  title: >-
+    Feasibility study of multiplexing analog signals from SiPMs for a single layer
+    monolithic PET detector design
+  authors:
+    - family-names: Subedi
+      given-names: Shiv K.
+      affiliation: "Canon Medical Research USA, Inc., Vernon Hills, IL, USA"
+    - family-names: Cherry
+      given-names: Simon R.
+      affiliation: "Department of Biomedical Engineering, University of California, Davis, CA, USA"
+    - family-names: Qiang
+      given-names: Yi
+      affiliation: "Canon Medical Research USA, Inc., Vernon Hills, IL, USA"
+    - family-names: Peng
+      given-names: Peng
+      affiliation: "Canon Medical Research USA, Inc., Vernon Hills, IL, USA"
+  journal: "Radiation Measurements"
+  volume: 182
+  start: 107399
+  year: 2025
+  issn: "1350-4487"
+  doi: "10.1016/j.radmeas.2025.107399"
+
+references:
+  - type: generic
+    title: >-
+      Feasibility study of multiplexing analog signals from SiPMs for a single layer
+      monolithic PET detector design (preprint)
+    authors:
+      - family-names: Subedi
+        given-names: Shiv K.
+      - family-names: Cherry
+        given-names: Simon R.
+      - family-names: Qiang
+        given-names: Yi
+      - family-names: Peng
+        given-names: Peng
+    year: 2024
+    url: "https://ssrn.com/abstract=4865116"
+    notes: >-
+      SSRN preprint 4865116, not peer reviewed. This code was written from this version, so
+      all section, figure and table numbers in the repository follow the preprint's numbering,
+      which differs from the published article.
